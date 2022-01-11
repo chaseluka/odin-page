@@ -215,3 +215,14 @@ ul {
     border-radius: 10px;
     border-color: #f9faf8;
 }
+
+/*CSS Footer Section*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 30px;
+    color: #bcc1ca;
+    font-size: 18px;
+}
