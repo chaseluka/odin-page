@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
