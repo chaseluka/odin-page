@@ -5,7 +5,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 ul {
@@ -19,11 +19,15 @@ ul {
 .intro-left {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .intro {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 100px;
 }
 
 .container-head {
@@ -31,6 +35,7 @@ ul {
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .big-text {
@@ -44,4 +49,30 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: #777;
+    padding: 90px;
+}
+
+.little-text {
+    font-size: 18px;
+    color: #bcc1ca
+}
+
+.intro a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.sign-up-top {
+    background-color: #3882f6;
+    border: 0;
+    max-width: 80px;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #bcc1ca;
+    font-size: 18px;
 }
