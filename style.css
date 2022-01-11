@@ -68,7 +68,7 @@ ul {
 
 .little-text {
     font-size: 18px;
-    color: #bcc1ca
+    color: #bcc1ca;
 }
 
 .intro a {
@@ -165,3 +165,53 @@ ul {
 
 /*CSS Sign-up Section*/
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 100px 0;
+    border-radius:;
+}
+
+.container-sign-up {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 100px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.sign-up-header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sign-up-body {
+    font-size: 18px;
+    color: #bcc1ca;
+}
+
+.sign-up-left,.sign-up-right {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.sign-up-left {
+    flex-direction: column;
+}
+
+.sign-up-right a{
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 10px 20px;
+}
+
+.sign-up-right {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #f9faf8;
+}
