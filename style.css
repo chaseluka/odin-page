@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -140,4 +142,26 @@ ul {
 
 /*CSS Testimonial Section*/
 
+
+.container-testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-testimonial div {
+    font-size: 36px;
+    font-family: 'Bad Script', cursive;
+    color: #1f2937
+}
+
+.container-testimonial p {
+    display: flex;
+    font-size: 24px;
+}
+
+/*CSS Sign-up Section*/
 
