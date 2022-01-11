@@ -89,3 +89,44 @@ ul {
     font-size: 24px;
     color: #f9faf8;
 }
+
+
+
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.box {
+    padding: 80px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-boxes,.container-subtext {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.container-subtext div {
+    max-width: 103.98px;
+    text-align: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+
